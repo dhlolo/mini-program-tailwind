@@ -69,12 +69,12 @@
         "@typescript-eslint/parser": "^5.13.0",
         "eslint": "^8.10.0",
         "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-digital-creative": "github:dcasia/digital-creative-eslint-plugin",
         "eslint-plugin-import": "^2.25.4",
         "jest": "^27.5.1",
         "rollup": "^2.68.0",
         "rollup-plugin-dts": "^4.2.1",
         "tslib": "^2.4.0",
+        "typescript": "^4.7.4",
         "vite": "^2.9.9",
         "webpack": "^5.69.1"
     },

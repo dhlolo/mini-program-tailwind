@@ -1,9 +1,8 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.css'
-import ComponentA from '../../components/index';
 
-export default class Index extends Component {
+export default class ComponentA extends Component {
 
   componentWillMount () { }
 
@@ -17,9 +16,8 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className={`index bg-[#b5b5b5] h-screen pl-7.5 ${true ? 'text-[50px]' : ''}`}>
-        <Text className={`${'none'} font-bold text-[#ffffff]`}>Hello world!</Text>
-        <ComponentA />
+      <View className='pl-8.5'>
+        <Text className='font-thin text-[#000000]'>Hello world2!</Text>
       </View>
     )
   }
